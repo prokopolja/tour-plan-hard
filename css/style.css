@@ -551,4 +551,11 @@ template {
     width: 99px;
   }
 }
+
+@media (max-width: 320px) {
+  .logo {
+    font-size: 13px;
+    line-height: 13px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
