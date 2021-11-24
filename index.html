@@ -13,6 +13,7 @@
     rel="stylesheet">
   <link rel="stylesheet" href="css/swiper-bundle.min.css" />
   <link rel="stylesheet" href="css/style.css" />
+
 </head>
 <body>
   <header class="navbar">
@@ -180,10 +181,8 @@
             <button class="button booking__button">View Other Options</button>
           </div>
           <!-- /.booking -->
-          <div class="map">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13293.055061135869!2d98.29017185284695!3d7.8899516843595725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30503b7bfcd9f903%3A0xf7065fac1e3d7c48!2sDoubleTree%20by%20Hilton%20Phuket%20Banthai%20Resort!5e0!3m2!1sru!2sby!4v1637665934159!5m2!1sru!2sby"
-              width="100%" height="213" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          <div id="map" class="map">
+
           </div>
           <!-- /.map -->
         </div>
@@ -194,6 +193,9 @@
     <!-- /.container -->
   </section>
   <script src="js/swiper-bundle.min.js"></script>
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=b941f061-3463-435f-a443-acc9d06710db&lang=ru_RU" type="text/javascript">
+  </script>
   <script src="js/main.js"></script>
+
 </body>
 </html>
