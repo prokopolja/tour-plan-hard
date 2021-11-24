@@ -6,6 +6,7 @@ function init(){
     zoom: 17,
   })
 }
+
 const swiper = new Swiper('.swiper', {
   // Optional parameters
   loop: true,
